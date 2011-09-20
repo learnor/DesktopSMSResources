@@ -2,101 +2,101 @@
 <resources>
     <string name="app_name">DeskSMS</string>
     
-    <string name="description">DeskSMS forwards your SMS to your Google Talk and/or Gmail. And reply back to respond via text!</string>
+    <string name="description">DeskSMS将短消息转发至你的Google Talk或者Gmail。并且通过短消息回复!</string>
     
-    <string name="signin_success">You have successfully signed in!</string>
-    <string name="signin_failure">Login failed. Please verify your internet connection and try again. Logging in with a Google Apps email address may not work. If the error persists, please send a log to the developer.</string>
+    <string name="signin_success">您已经成功登录!</string>
+    <string name="signin_failure">登录失败.请确认互联网连接后重试.使用Google Apps邮件地址可能无法登陆.如果连续出现错误，请将错误报告发送给开发者.</string>
     
-    <string name="login_with_google">Login with Google Account</string>
-    <string name="requesting_permissions">DeskSMS will now ask you for permission to use your Google Account authentication for the purposes of push notifications and registration with our server. DeskSMS will not have access to your passwords or personal data.</string>
-    <string name="permission_request">Permissions Request</string>
+    <string name="login_with_google">使用谷歌账户登录</string>
+    <string name="requesting_permissions">DeskSMS 现在将向你请求使用您的谷歌账户授权许可. 该授权用于启用推送通知和服务器注册.DeskSMS不会获取你的密码或者个人信息.</string>
+    <string name="permission_request">请求许可权限</string>
     
-    <string name="send_xmpp">Connect to Google Talk</string>
-    <string name="send_email">Connect to Gmail</string>
+    <string name="send_xmpp">连接到Google Talk</string>
+    <string name="send_email">连接到 Gmail</string>
     
-    <string name="setting_up_push">Setting up push notifications...</string>
-    <string name="retrieving_authentication">Retrieving Google authentication tokens...</string>
-    <string name="registering_with_server">Registering with push server...</string>
+    <string name="setting_up_push">建立推送通知...</string>
+    <string name="retrieving_authentication">正在获取谷歌认证令牌...</string>
+    <string name="registering_with_server">正在注册推送服务器...</string>
     
-    <string name="current_account">Current Account: %s</string>
+    <string name="current_account">当前账户: %s</string>
     
-    <string name="forwarded">%s SMS sent to your Desktop</string>
-    <string name="proxied">%s SMS sent by your Desktop</string>
+    <string name="forwarded">%s 发送到桌面的短消息</string>
+    <string name="proxied">%s 从桌面发出的短消息</string>
     
-    <string name="not_logged_in">Please log in with your Google Account to use DeskSMS.</string>
+    <string name="not_logged_in">请使用您的谷歌账户登录以使用DeskSMS.</string>
     
-    <string name="test_message">Send Test Message</string>
-    <string name="test_message_info">Press OK to send a SMS to yourself. You should see the SMS arrive in your Messaging application as usual. You should also receive an email and optionally a Google Talk message as well!</string>
-    <string name="test_message_content">This is a test message from DeskSMS!</string>
+    <string name="test_message">发送测试信息</string>
+    <string name="test_message_info">点击确认 OK后发送短信给自己.你将看到该短信被发送到你的短信程序中。同时你也将可能收到一封邮件或者Google Talk信息!</string>
+    <string name="test_message_content">这是一条来自DeskSMS的测试短信!</string>
     
-    <string name="number_retrieval_error">Unable to retrieve your phone number. Please use your Messaging application to manually send yourself a text message to test DeskSMS.</string>
+    <string name="number_retrieval_error">无法获取您的电话号码,请使用你的短信程序手动给你自己发送一条短信用以测试DeskSMS.</string>
     
-    <string name="msg_app_detected">The application %s was found installed. If you do not receive a text message, please verify that that it has not disabled SMS notifications in the application\'s settings.</string>
+    <string name="msg_app_detected">该应用程序 %s 已经安装. 如果你没有收到短信,请确保程序设置中没有禁用短信通知.</string>
     <string name="handcent">Handcent</string>
     <string name="gosms">GoSMS</string>
     
-    <string name="missed_call_from">Missed call from %s.</string>
-    <string name="missed_call_at">Missed call at %s.</string>
-    <string name="sms_received">SMS Received from %s</string>
+    <string name="missed_call_from">来自 %s的未接来电.</string>
+    <string name="missed_call_at">在 %s的未接来电.</string>
+    <string name="sms_received">来自 %s的短信</string>
     
-    <string name="account">Account</string>
-    <string name="notifications">Notifications</string>
+    <string name="account">账户</string>
+    <string name="notifications">通知</string>
     <string name="google_talk">Google Talk</string>
     <string name="gmail">Gmail</string>
     
     <string name="troubleshooting">Troubleshooting</string>
 
-    <string name="accounts">Accounts</string>
+    <string name="accounts">账户</string>
     
-    <string name="widget_name">DeskSMS Widget</string>
+    <string name="widget_name">DeskSMS 小插件</string>
     
-    <string name="updating_settings">Updating server settings...</string>
-    <string name="updating_settings_error">There was an error communicating with the server. Please check your connection.</string>
-    <string name="disable_notifications">Disable SMS Notifications</string>
-    <string name="disable_notifications_summary">Disable SMS Notification to other applications. Do not use the notification disabler in GoSMS or Handcent; enable this instead.</string>
+    <string name="updating_settings">正在更新服务器设定...</string>
+    <string name="updating_settings_error">与服务器通信出错.请检查网络连接.</string>
+    <string name="disable_notifications">禁用短消息通知</string>
+    <string name="disable_notifications_summary">禁用其他应用程序中的短消息通知功能,请勿使用GoSMS或者Handcent中的禁用短信通知功能.使用本功能代替. SMS Notification to other applications. Do not use the notification disabler in GoSMS or Handcent; enable this instead.</string>
     
-    <string name="sync_sms">Sync SMS</string>
-    <string name="sync_sms_summary">Sync your SMS history to the DeskSMS server. This will enable you to use the DeskSMS web interface and view your message history online.</string>
+    <string name="sync_sms">同步短信</string>
+    <string name="sync_sms_summary">Sync 将您的短信历史同步到DeskSMS服务器. 同步后您将可以使用DeskSMS网页界面并在线查看短信历史记录.</string>
     
-    <string name="contacts">Contacts</string>
-    <string name="add_desksms_contact_info">Merge DeskSMS Contacts</string>
-    <string name="add_desksms_contact_info_summary">Add DeskSMS email and IM addresses to your contact list. This will allow you to initate an SMS to someone via email or IM.</string>
-    <string name="remove_desksms_contact_info">Remove DeskSMS Contacts</string>
-    <string name="please_wait_contact_list">Please wait while your contact list is updated...</string>
+    <string name="contacts">联系人</string>
+    <string name="add_desksms_contact_info">合并 DeskSMS 联系人</string>
+    <string name="add_desksms_contact_info_summary">将 DeskSMS 邮件和即时消息地址添加到您的联系人列表. 该功能允许您通过邮件或即时消息发送短消息.</string>
+    <string name="remove_desksms_contact_info">删除 DeskSMS 联系人</string>
+    <string name="please_wait_contact_list">请等待,正在更新您的联系人列表...</string>
 
-	<string name="sync_calls">Sync Calls</string>
-	<string name="sync_calls_summary">Sync your Call history to the DeskSMS server for online viewing.</string>
+	<string name="sync_calls">同步通话记录 Calls</string>
+	<string name="sync_calls_summary">同步你的通话历史记录到DeskSMS的服务器以便在线查看.</string>
 	
-	<string name="web">Browser and Extensions</string>
+	<string name="web">浏览器和扩展</string>
 
-	<string name="testing_push">Testing push notifications...</string>
-	<string name="push_failed">You have successfully signed in!\n\nWarning: Push notifications were set up successfully, but the test push notification failed. There may be issues when sending messages via DeskSMS.</string>
+	<string name="testing_push">测试推送通知...</string>
+	<string name="push_failed">您已经成功登录!\n\警告: 推送通知已经设置成功,推送通知测失败.可能通过DeskSMS发送短信时有错误发生.</string>
 	
-	<string name="buy_desksms">Buy DeskSMS</string>
+	<string name="buy_desksms">购买 DeskSMS</string>
 	
-	<string name="retrieving_status">Retrieving Account Status...</string>
+	<string name="retrieving_status">正在获取账户状态...</string>
 	
 	<string name="paypal">PayPal</string>
-	<string name="android_market_inapp">Android Market In-App</string>
-	<string name="payment_options">Payment Options</string>
-	<string name="account_status">Account Status</string>
-	<string name="days_left">%s days left</string>
-	<string name="status_error">Unable to retrieve account status! Please try again later.</string>
-	<string name="desksms_one_year_license">DeskSMS One Year License</string>
-	<string name="purchase_thanks">Thanks! Your purchase will be processed on the DeskSMS servers shortly.</string>
+	<string name="android_market_inapp">Android 市场应用内购买</string>
+	<string name="payment_options">付款选项</string>
+	<string name="account_status">账户状态</string>
+	<string name="days_left">还剩%s 天 </string>
+	<string name="status_error">无法获取账户状态!请稍候重试.</string>
+	<string name="desksms_one_year_license">DeskSMS 一年使用许可</string>
+	<string name="purchase_thanks">谢谢!您的购买很快会被DeskSMS服务器处理.</string>
 	
-	<string name="switch_account">Switch Account</string>
+	<string name="switch_account">切换账户</string>
 
-    <string name="mms_received">MMS Received from %s</string>
+    <string name="mms_received"> 来自  %s的彩信</string>
     
-    <string name="redeem_code">Redeem Code</string>
+    <string name="redeem_code">兑换代码</string>
 
     <string name="plugin_name">DeskSMS</string>
 
     <string name="disable_notifications_summary2">Disables the stock Messaging app\'s notifications while DeskSMS is forwarding.</string>
-    <string name="adjust_sms_date">Adjust SMS Date</string>
-    <string name="adjust_sms_date_summary">Adjust the date on incoming text messages. This workaround is necessary to fix date bugs on some Motorola phones.</string>
-    <string name="adjust_hour">%s hour</string>
-    <string name="adjust_hours">%s hours</string>
-    <string name="disabled">Disabled</string>
+    <string name="adjust_sms_date">调整短信日期</string>
+    <string name="adjust_sms_date_summary"> 调整接收到短消息的日期. 一些 摩托罗拉手机上出现的时期错误需要使用该办法解决.</string>
+    <string name="adjust_hour">%s 小时</string>
+    <string name="adjust_hours">%s 小时</string>
+    <string name="disabled">禁用</string>
 </resources>
